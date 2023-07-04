@@ -1,0 +1,58 @@
+:root {
+  --bg-color: rgb(12,12,12);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.custom-container {
+  border: 1pt solid white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.row-logo{
+  margin-top: 50px;
+}
+
+
+.logo-title {
+  color: purple;
+  font-size: 22px;
+  font-weight: 800;
+}
+.row-input {
+  margin-top: 50px;
+}
+
+.input-group {
+  width: 350px;
+}
+
+.row-button {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: purple;
+  border: none;
+  width: 150px;
+}
+
+.signup{
+  margin-top: 50px;
+}
+
+.signup-style {
+  text-decoration: none;
+  color: white;
+}
+
+.signup-style:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: white;
+}
